@@ -1,0 +1,75 @@
+.rósz{
+    background-color: red;
+}
+
+*{
+    margin: 0;
+    font-size: xx-large;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    font-size: xx-large;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+span{
+    font-size: 2.5rem;
+    color: rgb(125, 30, 176);
+}
+
+input{
+    height: 1.5rem;
+    width: 4rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+hr{
+    margin-top: 1.5rem;
+    width: 17rem;
+    color: grey;
+    height: 1px;
+}
+
+.container{
+    background-color: white;
+    padding:  0 2rem;
+    height: fit-content;
+    width: 20rem;
+    border-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+}
+
+#beiras{
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+#day, #month, #year{
+    margin-right: 1rem;
+}
+
+#kiiras{
+    margin-bottom: 1.5rem;
+}
+
+button{
+    height: 3rem;
+    width: 3rem;
+    background-color: purple;
+}
+
+#bekuldes{
+    display: flex;
+}
